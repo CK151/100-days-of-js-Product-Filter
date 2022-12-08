@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Filter</title>
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Product Filter</h1>
+
+            <!--Search box-->
+            <div class="search-box">
+                <form action="" onsubmit="return false">
+                    <input type="text" id="search" placeholder="Search Product" >
+                </form>
+            </div>
+            <!--buttons-->
+            <div class="filter-box">
+                <a href="#" class="btn active" data-filter="all">All</a>
+                <a href="#" class="btn" data-filter="watch">Watch</a>
+                <a href="#" class="btn" data-filter="shirt">Shirt</a>
+                <a href="#" class="btn" data-filter="car">Car</a>
+                <a href="#" class="btn" data-filter="jewelry">Jewelry</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <section class="container" id="store-products">
+
+                <!--single-->
+                <div class="store-product watch">
+                    <img src="./images/analog-watch-1869928__480.jpg" alt="Watch">
+                    <div class="product-details">
+                        <h2>Watch Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!--single-->
+                <div class="store-product watch" data-aos="flip-up">
+                    <img src="./images/wristwatch-407096__480.jpg" alt="Watch">
+                    <div class="product-details">
+                        <h2>Watch Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!--single-->
+                <div class="store-product watch">
+                    <img src="./images/wrist-watch-2159351__480.jpg" alt="Watch">
+                    <div class="product-details">
+                        <h2>Watch Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!--single shirts-->
+                <div class="store-product car" data-aos="fade-up-left">
+                    <img src="./images/car-1300629__480.webp" alt="Watch">
+                    <div class="product-details">
+                        <h2>OpenRoof Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!--single car-->
+                <div class="store-product car" data-aos="fade-up-left">
+                    <img src="./images/car-1376190__480.jpg" alt="Watch">
+                    <div class="product-details">
+                        <h2>Sport car Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!--single car-->
+                <div class="store-product car" data-aos="fade-down-left">
+                    <img src="/images/car-1300629__480.webp" alt="Watch">
+                    <div class="product-details">
+                        <h2>OpenRoof Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!--single car-->
+                <div class="store-product shirt" data-aos="flip-down">
+                    <img src="./images/car-604019__480.jpg" alt="Watch">
+                    <div class="product-details">
+                        <h2>Audi Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!--single shirts-->
+                <div class="store-product shirt" data-aos="flip-right">
+                    <img src="./images/car-1300629__480.webp" alt="Watch">
+                    <div class="product-details">
+                        <h2>BNW Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+
+
+                <!--single gown-->
+                <div class="store-product gown"
+                data-aos="flip-down">
+                    <img src="./images/car-63930__l.jpeg" alt="gown">
+                    <div class="product-details">
+                        <h2>Gown Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+
+
+                <!--single jewelry-->
+                <div class="store-product jewelry" data-aos="flip-down">
+                    <img src="./images/jewelry0.jpeg" alt="jewelry">
+                    <div class="product-details">
+                        <h2>Jewelry Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!--single jewelry-->
+                <div class="store-product jewelry" data-aos="flip-up">
+                    <img src="./images/diamond-1199183__480.webp" alt="jewelry">
+                    <div class="product-details">
+                        <h2>Jewelry Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+
+                <!--single jewelry-->
+                <div class="store-product jewelry" data-aos="flip-left">
+                    <img src="./images/ring-1671094__480.webp" alt="jewelry">
+                    <div class="product-details">
+                        <h2>Jewelry Product</h2>
+                        <p><span>$39.99</span> $29.99</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="container no-result">
+                <p>No more Products Found!</p>
+            </div>
+        </div>
+    </main>
+  
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
